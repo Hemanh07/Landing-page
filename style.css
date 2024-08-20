@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --bgcolor:#1F2937;
+    --textcolor:#F9FAF8;
+
+}
+header{
+    background-color: var(--bgcolor);
+    display: flex;
+    padding: 1rem 5rem;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+footer{
+    background-color: var(--bgcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotes{
+    background-color: #E5E7EB;
+}
+
+.title{
+    color:var(--textcolor) ;
+}
+nav , ul{
+    color:#E5E7EB;
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+}
+ul{
+    gap: 30px;
+}
+#banner{
+    background-color: var(--bgcolor);
+    color:#E5E7EB;
+    padding: 10rem 5rem;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start ;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.herohead{
+    color: var(--textcolor);
+    font-size: 48px;
+    font-weight: 600;
+}
+.hero p{
+    font-size: 18px;
+    width: 50%;
+}
+#imageholder{
+    justify-self:flex-start;
+    width: 900px;
+    height:300px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .signup{
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #3882F6;
+    color: var(--textcolor);
+    border: 0;
+    border-radius: 20px;
+ }
+
+ .quotes{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    padding: 5rem;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+ }
+
+ h6{
+    align-self: flex-end;
+    padding-right: 20rem;
+ }
+
+ .alertpopup{
+    background-color:  #3882F6;
+    color: #fff;
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+    margin: 4rem 5rem;
+    padding: 1rem 5rem ;
+    border-radius: 20px;
+     & button{
+         border: 3px solid white;
+         border-radius: 10px;
+    }
+ }
+
+
+ #information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+    & h1{
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+    }
+    & section{
+        display: flex;
+
+        & img{
+            height: 150px;
+            width: 150px;
+            border: 2px #3882F6 solid;
+            border-radius: 10px;
+        }
+        & figcaption{
+            width: 200px;
+        }
+    }
+ }
